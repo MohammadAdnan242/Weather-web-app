@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link href="https://fonts.googleapis.com/css2?family=Darumadrop+One&display=swap" rel="stylesheet">
+
+    <title>Weather Web App</title>
+</head>
+<body>
+    <main>
+        <div id="heading">Weather Web App</div>
+
+        <div class="row" style="text-align: center;">
+            <form id="search-form">
+                <input type="search" id="search" placeholder="Search by city name" autofocus>
+            </form>
+        </div>
+
+        <br>
+
+        <div class="row" id="weather">
+            <p id="city-name">City: ---</p> <!-- City Name will update dynamically -->
+            <p id="temp">32&deg;C</p>
+
+            <span class="material-symbols-outlined">
+                weather_mix
+            </span>
+            <h4>Clear</h4>    
+        </div>
+    </main>
+
+    <script src="app.js"></script>
+</body>
+</html>
